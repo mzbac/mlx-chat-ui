@@ -1,0 +1,42 @@
+# Compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db   # Windows
+
+# Docker
+*.env  # Environment files
+.env.*
+docker-compose.override.yml
+docker-compose.*.yml
+
+# Nginx
+logs/
+
+# SSL certificates
+*.crt
+*.key
+
+# Miscellaneous
+*.swp  # Vim temporary files
+*.swo  # Vim temporary files
+*.bak  # backup files
+*.tmp  # temporary files
+
+# Ignore all files in the models folder
+models/*
+
+# ignore mongo db folder
+mongo
+
+# ignore chat-ui repo
+chat-ui
