@@ -65,6 +65,7 @@ MODELS=\`[
       ]
     }
 ]\`
+LLM_SUMMERIZATION=false
 EOF
 
 # Check if the .env.local file was created successfully

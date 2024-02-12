@@ -27,6 +27,7 @@ git checkout e0c0b0e53fd3d9452c3adae82de39d15c9476a1b
 
 Run the configuration script to update svelte.config.js and crate a .env.local file
 ```shell
+cd ..
 ./config_chat_ui.sh
 ```
 Note: This setup is configured for the mixtral-8x7b model. If you're using a different model, update the .env.local file in the chat-ui directory accordingly. For more details, see the[chat-ui environment template.](https://github.com/huggingface/chat-ui/blob/main/.env.template)

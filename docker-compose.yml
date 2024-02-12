@@ -2,7 +2,7 @@ version: '3'
 services:
   nginx:
     build: 
-     context: ./nginx
+     context: nginx
      dockerfile: Dockerfile
     network_mode: host
     depends_on:
