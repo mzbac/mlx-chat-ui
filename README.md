@@ -56,3 +56,6 @@ To start the UI frontend services, use Docker Compose:
 docker-compose up --build
 ```
 After starting the services, open https://localhost/chat in your browser to interact with the application.
+
+## Alternative Setup
+If the standard docker-compose setup does not work for you, follow the setup instructions provided in the chat-ui repository's [README](https://github.com/huggingface/chat-ui?tab=readme-ov-file#setup). Make sure to change the .env.local file to point the API endpoint to your local mlx-lm server and adjust the MongoDB URL as necessary.
