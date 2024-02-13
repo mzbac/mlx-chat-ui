@@ -1,8 +1,17 @@
+## Introduction
+This repository demonstrates how to set up the huggingface chat-ui integration with mlx-lm server.
+
 ## Prerequisites
 Before you begin, ensure you have the following tools installed:
 
 - Docker
 - Docker Compose
+  
+If you prefer using Colima for Docker, you can install it using Homebrew with the following commands:
+```
+brew install colima
+colima start
+```
 
 ### Installation
 ### mlx-lm Package
